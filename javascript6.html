@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="java">
+        var a = "A" // 65 아스키코드값
+        var b = "B" // 66아스키코드값
+        document.write("<h1>자바스크립트 관계연산자 2 </h1>")
+
+            c = a<b && a==b ;  //&&그리고 and
+                // 65<66 그리고 65==66 같니 
+                document.write(c + "<br>");
+
+
+
+            c = a<b || a==b ; // ||또는 or
+                // 65<66 또는 65==66 같니
+                document.write(c + "<br>")
+
+
+            c = a > b || a!=b ;
+            document.write(c + "<br>")
+
+            c= !2 || 3 && !0 ; //0을 false 라고 하고 0이외 숫자(1)를 true !는 not을 의미한다(부정) true는 false , false는 true로 변환
+
+            document.write( c + "<br>");
+
+            /*  t && t = t
+                t && f = f
+                f && t = f
+                f && f = f 
+                
+                t || t = t
+                t || f = t
+                f || t = t
+                f || f = f  */
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

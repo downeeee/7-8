@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script lang="java">
+        document.write("자바 스크립트 예제 전위 후위 연산자 " + "<br>")
+
+        var a = 10;
+        var b = 10;
+        var c = 10;
+
+        // var a=20 , b=20 , c=2
+
+        document.write( ++a + "<br>");  //11 전위연산자 ++ 명령어 처리 전에 메모리를 먼저 1을 증가 시키고 명령어 처리한다
+
+        document.write( a++ + "<br>");  //a = 11 ? a출력은 11 메모리 a = 12 후위 연산자는 먼저 명령어를 처리 한 후 ㅜ메모리를 나중에 1 증가시킨다
+
+        document.write( c++ + "<br>"); //출력 c= 3   메모리c=4
+
+        document.write( c + "<br>"); 
+
+        document.write( ++a + b++ + "<br>");  //출력 a + b = 33  메모리 a = 13   b= 21
+        document.write( ++a + ++b +"<br>")
+
+        document.write(a + "<br>")
+        document.write(b + "<br>")
+        document.write(c + "<br>")
+
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
